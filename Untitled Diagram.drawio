@@ -1,9 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T14:31:34.549Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.2" etag="sSa39BwPfZ7lDch1dkO6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T14:39:50.521Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="CIRyqDh2PVINeAdiD_7t" version="24.0.2" type="github">
   <diagram name="Page-1" id="TTlbSqoGFx943RdkP0pC">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YOF1-canSmgiHeJo_--x-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOF1-canSmgiHeJo_--x-1" target="YOF1-canSmgiHeJo_--x-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YOF1-canSmgiHeJo_--x-2" target="YOF1-canSmgiHeJo_--x-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-2" value="Input angka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YOF1-canSmgiHeJo_--x-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YOF1-canSmgiHeJo_--x-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-3" value="Angka &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YOF1-canSmgiHeJo_--x-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-4" value="Positif" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YOF1-canSmgiHeJo_--x-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-5" value="Negatif" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YOF1-canSmgiHeJo_--x-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-6" value="loop while&lt;div&gt;angka = 0&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-7" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-15" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YOF1-canSmgiHeJo_--x-16" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
