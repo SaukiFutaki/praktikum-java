@@ -10,9 +10,9 @@ public class Oop {
         scanner.close();
 
         if (pilihan.equalsIgnoreCase("a")) {
-            OpsiA.printSegitigaAtas(5); // Replace 5 with desired number of rows for option A
+            OpsiA.printSegitigaAtas(5); 
         } else if (pilihan.equalsIgnoreCase("b")) {
-            OpsiB.printSegitigaTerbalik(5); // Replace 5 with desired number of rows for option B
+            OpsiB.printSegitigaTerbalik(5); 
         } else {
             System.out.println("Pilihan tidak valid.");
         }
