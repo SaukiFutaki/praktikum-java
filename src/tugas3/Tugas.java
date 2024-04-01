@@ -3,9 +3,6 @@ package tugas3;
 public class Tugas {
   private int bilangan;
 
-
-
-
   public Tugas(int bilangan) {
     this.bilangan = bilangan;
   }
