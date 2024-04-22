@@ -11,12 +11,11 @@ public class DiscountRental extends Rental {
     this.discount = 0; 
   }
 
-  // Getter for discount
+
   public double getDiscount() {
     return discount;
   }
 
-  // Setter for discount
   public void setDiscount(double discount) {
     this.discount = discount;
   }
