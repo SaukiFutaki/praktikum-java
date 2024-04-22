@@ -15,7 +15,7 @@ public class Rental {
     this.customerName = customerName;
     this.customerPhone = customerPhone;
     this.duration = duration;
-    this.price = setDefaultPrice(field.getSport()) * duration * 100; // Convert to cents
+    this.price = setDefaultPrice(field.getSport()) * duration * 100;
   }
 
   public int getPrice() {
