@@ -4,11 +4,11 @@ import java.text.NumberFormat;
 import java.util.Locale;
 
 public class DiscountRental extends Rental {
-  private double discount; // in percentage
+  private double discount; 
 
   public DiscountRental(SportsField field, String customerName, String customerPhone, int duration, int price) {
     super(field, customerName, customerPhone, duration, price);
-    this.discount = 0; // Set default discount to 0
+    this.discount = 0; 
   }
 
   // Getter for discount
