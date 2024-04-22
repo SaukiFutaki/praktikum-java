@@ -7,15 +7,14 @@ public class Main {
   public static void main(String[] args) {
 
     Scanner scanner = new Scanner(System.in);
-   
 
     int choice;
     do {
       JOptionPane.showMessageDialog(null, "Selamat datang di aplikasi penyewaan lapangan olahraga!");
-      String input =  JOptionPane.showInputDialog( "Pilih jenis lapangan olahraga:\n1. Soccer 100k/j\n2. Basket 50k/j\n3. Futsal 100k/j");
+      String input = JOptionPane
+          .showInputDialog("Pilih jenis lapangan olahraga:\n1. Soccer 100k/j\n2. Basket 50k/j\n3. Futsal 100k/j");
       choice = Integer.parseInt(input);
     } while (choice < 1 || choice > 3);
-
 
     String sport = "";
     switch (choice) {
@@ -29,9 +28,9 @@ public class Main {
         sport = "Futsal";
         break;
       default:
-      
-      scanner.close();
-      
+
+        scanner.close();
+
     }
 
     // Create a sports field
@@ -42,9 +41,14 @@ public class Main {
     String customerPhone = JOptionPane.showInputDialog("Masukan nomer handphone penyewa:");
     String durationInput = JOptionPane.showInputDialog("Masukan durasi(jam) :");
     int duration = Integer.parseInt(durationInput);
+    String discountInput = JOptionPane.showInputDialog("Masukan diskon (%) :");
+    double discount = Double.parseDouble(discountInput);
 
     // Create a rental for the sports field
-    Rental rental = new Rental(field, customerName, customerPhone, duration, 150000);
+    DiscountRental rental = new DiscountRental(field, customerName, customerPhone, duration, 150000);
+    rental.setDiscount(discount);
+    // Rental rental = new Rental(field, customerName, customerPhone, duration,
+    // 150000);
 
     // Print the details of the rental
     JOptionPane.showMessageDialog(null, rental.getDetails());

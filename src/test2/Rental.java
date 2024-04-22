@@ -18,6 +18,10 @@ public class Rental {
     this.price = setDefaultPrice(field.getSport()) * duration * 100; // Convert to cents
   }
 
+  public int getPrice() {
+    return price;
+  }
+
   private int setDefaultPrice(String sport) {
       int defaultPrice = 0;
       switch (sport) {
